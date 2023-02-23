@@ -9,3 +9,14 @@ C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bub
 C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).exe
 C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).pdb
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\bin\Debug\Bubble Sort (Design).exe.config
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\bin\Debug\Bubble Sort (Design).exe
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\bin\Debug\Bubble Sort (Design).pdb
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).csproj.AssemblyReference.cache
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).csproj.SuggestedBindingRedirects.cache
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\obj\Debug\Bubble_Sort__Design_.Form1.resources
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\obj\Debug\Bubble_Sort__Design_.Properties.Resources.resources
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).csproj.GenerateResource.cache
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).csproj.CoreCompileInputs.cache
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).exe
+C:\Users\Jc\source\repos\Bubble-Sort-Design-Only-Baby\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).pdb

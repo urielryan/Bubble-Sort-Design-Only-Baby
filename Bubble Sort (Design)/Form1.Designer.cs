@@ -28,45 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.MainStart = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.whatCorrect = new System.Windows.Forms.PictureBox();
-            this.whatHighlight = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.book1 = new System.Windows.Forms.Panel();
-            this.volume1 = new System.Windows.Forms.Label();
+            this.correctE = new System.Windows.Forms.PictureBox();
+            this.bookA = new System.Windows.Forms.Panel();
+            this.volumeA = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.book2 = new System.Windows.Forms.Panel();
-            this.volume2 = new System.Windows.Forms.Label();
+            this.bookB = new System.Windows.Forms.Panel();
+            this.volumeB = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.book3 = new System.Windows.Forms.Panel();
-            this.volume3 = new System.Windows.Forms.Label();
+            this.bookC = new System.Windows.Forms.Panel();
+            this.volumeC = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.book4 = new System.Windows.Forms.Panel();
-            this.volume4 = new System.Windows.Forms.Label();
+            this.bookD = new System.Windows.Forms.Panel();
+            this.volumeD = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.book5 = new System.Windows.Forms.Panel();
-            this.volume5 = new System.Windows.Forms.Label();
+            this.bookE = new System.Windows.Forms.Panel();
+            this.volumeE = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -76,79 +66,76 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.whatAlmostCorrect = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.whatCorrect)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whatHighlight)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.book1.SuspendLayout();
-            this.book2.SuspendLayout();
-            this.book3.SuspendLayout();
-            this.book4.SuspendLayout();
-            this.book5.SuspendLayout();
+            this.secondpass = new System.Windows.Forms.Button();
+            this.next1 = new System.Windows.Forms.Button();
+            this.correctD = new System.Windows.Forms.PictureBox();
+            this.correctC = new System.Windows.Forms.PictureBox();
+            this.correctB = new System.Windows.Forms.PictureBox();
+            this.correctA = new System.Windows.Forms.PictureBox();
+            this.noneedA = new System.Windows.Forms.PictureBox();
+            this.noneedB = new System.Windows.Forms.PictureBox();
+            this.noneedC = new System.Windows.Forms.PictureBox();
+            this.noneedD = new System.Windows.Forms.PictureBox();
+            this.noneedE = new System.Windows.Forms.PictureBox();
+            this.spotlightA = new System.Windows.Forms.PictureBox();
+            this.spotlightB = new System.Windows.Forms.PictureBox();
+            this.spotlightC = new System.Windows.Forms.PictureBox();
+            this.spotlightD = new System.Windows.Forms.PictureBox();
+            this.spotlightE = new System.Windows.Forms.PictureBox();
+            this.next2 = new System.Windows.Forms.Button();
+            this.next3 = new System.Windows.Forms.Button();
+            this.next4 = new System.Windows.Forms.Button();
+            this.next5 = new System.Windows.Forms.Button();
+            this.next6 = new System.Windows.Forms.Button();
+            this.next7 = new System.Windows.Forms.Button();
+            this.next8 = new System.Windows.Forms.Button();
+            this.next9 = new System.Windows.Forms.Button();
+            this.next10 = new System.Windows.Forms.Button();
+            this.next11 = new System.Windows.Forms.Button();
+            this.next12 = new System.Windows.Forms.Button();
+            this.thirdpass = new System.Windows.Forms.Button();
+            this.next13 = new System.Windows.Forms.Button();
+            this.next14 = new System.Windows.Forms.Button();
+            this.next15 = new System.Windows.Forms.Button();
+            this.fourthpass = new System.Windows.Forms.Button();
+            this.next16 = new System.Windows.Forms.Button();
+            this.refreshbtn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.correctE)).BeginInit();
+            this.bookA.SuspendLayout();
+            this.bookB.SuspendLayout();
+            this.bookC.SuspendLayout();
+            this.bookD.SuspendLayout();
+            this.bookE.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whatAlmostCorrect)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correctD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correctC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correctB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correctA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightE)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // MainStart
             // 
-            this.button1.Location = new System.Drawing.Point(32, 563);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Start 1st Pass";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(133, 563);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Start 2nd Pass";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(32, 592);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(95, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Start 3rd Pass";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(133, 592);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(95, 23);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Start 4th Pass";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label9.Location = new System.Drawing.Point(14, 547);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 13);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "//buttons";
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(258, 592);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(95, 23);
-            this.button5.TabIndex = 12;
-            this.button5.Text = "Next";
-            this.button5.UseVisualStyleBackColor = true;
+            this.MainStart.Location = new System.Drawing.Point(170, 278);
+            this.MainStart.Name = "MainStart";
+            this.MainStart.Size = new System.Drawing.Size(147, 23);
+            this.MainStart.TabIndex = 7;
+            this.MainStart.Text = "Start Bubble Sorting!";
+            this.MainStart.UseVisualStyleBackColor = true;
+            this.MainStart.Click += new System.EventHandler(this.MainStart_Click);
             // 
             // label13
             // 
@@ -159,92 +146,43 @@
             this.label13.Size = new System.Drawing.Size(0, 13);
             this.label13.TabIndex = 13;
             // 
-            // label1
+            // correctE
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label1.Location = new System.Drawing.Point(14, 278);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 13);
-            this.label1.TabIndex = 35;
-            this.label1.Text = "//nasa right place";
+            this.correctE.BackColor = System.Drawing.Color.Transparent;
+            this.correctE.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.TANGGAL_BG_CHECK1;
+            this.correctE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.correctE.Location = new System.Drawing.Point(486, 30);
+            this.correctE.Name = "correctE";
+            this.correctE.Size = new System.Drawing.Size(284, 108);
+            this.correctE.TabIndex = 34;
+            this.correctE.TabStop = false;
+            this.correctE.Visible = false;
             // 
-            // label2
+            // bookA
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label2.Location = new System.Drawing.Point(12, 144);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 36;
-            this.label2.Text = "//naka select";
+            this.bookA.BackColor = System.Drawing.Color.DodgerBlue;
+            this.bookA.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
+            this.bookA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bookA.Controls.Add(this.volumeA);
+            this.bookA.Controls.Add(this.label35);
+            this.bookA.Controls.Add(this.label36);
+            this.bookA.Controls.Add(this.label37);
+            this.bookA.Controls.Add(this.label38);
+            this.bookA.Location = new System.Drawing.Point(488, 547);
+            this.bookA.Name = "bookA";
+            this.bookA.Size = new System.Drawing.Size(278, 42);
+            this.bookA.TabIndex = 18;
             // 
-            // label3
+            // volumeA
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label3.Location = new System.Drawing.Point(14, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 13);
-            this.label3.TabIndex = 37;
-            this.label3.Text = "//general size nung frame";
-            // 
-            // whatCorrect
-            // 
-            this.whatCorrect.BackColor = System.Drawing.Color.Transparent;
-            this.whatCorrect.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.TANGGAL_BG_CHECK1;
-            this.whatCorrect.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.whatCorrect.Location = new System.Drawing.Point(17, 294);
-            this.whatCorrect.Name = "whatCorrect";
-            this.whatCorrect.Size = new System.Drawing.Size(284, 108);
-            this.whatCorrect.TabIndex = 34;
-            this.whatCorrect.TabStop = false;
-            // 
-            // whatHighlight
-            // 
-            this.whatHighlight.BackColor = System.Drawing.Color.Transparent;
-            this.whatHighlight.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.highigliheter;
-            this.whatHighlight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.whatHighlight.Location = new System.Drawing.Point(17, 158);
-            this.whatHighlight.Name = "whatHighlight";
-            this.whatHighlight.Size = new System.Drawing.Size(284, 108);
-            this.whatHighlight.TabIndex = 29;
-            this.whatHighlight.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox7.Location = new System.Drawing.Point(17, 30);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(284, 108);
-            this.pictureBox7.TabIndex = 28;
-            this.pictureBox7.TabStop = false;
-            // 
-            // book1
-            // 
-            this.book1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.book1.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
-            this.book1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.book1.Controls.Add(this.volume1);
-            this.book1.Controls.Add(this.label35);
-            this.book1.Controls.Add(this.label36);
-            this.book1.Controls.Add(this.label37);
-            this.book1.Controls.Add(this.label38);
-            this.book1.Location = new System.Drawing.Point(488, 547);
-            this.book1.Name = "book1";
-            this.book1.Size = new System.Drawing.Size(278, 42);
-            this.book1.TabIndex = 18;
-            // 
-            // volume1
-            // 
-            this.volume1.AutoSize = true;
-            this.volume1.BackColor = System.Drawing.Color.Transparent;
-            this.volume1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.volume1.Location = new System.Drawing.Point(240, 5);
-            this.volume1.Name = "volume1";
-            this.volume1.Size = new System.Drawing.Size(29, 31);
-            this.volume1.TabIndex = 3;
-            this.volume1.Text = "1";
+            this.volumeA.BackColor = System.Drawing.Color.DodgerBlue;
+            this.volumeA.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.volumeA.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.volumeA.Location = new System.Drawing.Point(246, 4);
+            this.volumeA.Name = "volumeA";
+            this.volumeA.Size = new System.Drawing.Size(18, 31);
+            this.volumeA.TabIndex = 45;
+            this.volumeA.Text = "5";
             // 
             // label35
             // 
@@ -293,31 +231,31 @@
             this.label38.TabIndex = 1;
             this.label38.Text = "|";
             // 
-            // book2
+            // bookB
             // 
-            this.book2.BackColor = System.Drawing.Color.Lime;
-            this.book2.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
-            this.book2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.book2.Controls.Add(this.volume2);
-            this.book2.Controls.Add(this.label30);
-            this.book2.Controls.Add(this.label31);
-            this.book2.Controls.Add(this.label32);
-            this.book2.Controls.Add(this.label33);
-            this.book2.Location = new System.Drawing.Point(488, 436);
-            this.book2.Name = "book2";
-            this.book2.Size = new System.Drawing.Size(278, 42);
-            this.book2.TabIndex = 17;
+            this.bookB.BackColor = System.Drawing.Color.Lime;
+            this.bookB.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
+            this.bookB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bookB.Controls.Add(this.volumeB);
+            this.bookB.Controls.Add(this.label30);
+            this.bookB.Controls.Add(this.label31);
+            this.bookB.Controls.Add(this.label32);
+            this.bookB.Controls.Add(this.label33);
+            this.bookB.Location = new System.Drawing.Point(488, 436);
+            this.bookB.Name = "bookB";
+            this.bookB.Size = new System.Drawing.Size(278, 42);
+            this.bookB.TabIndex = 17;
             // 
-            // volume2
+            // volumeB
             // 
-            this.volume2.AutoSize = true;
-            this.volume2.BackColor = System.Drawing.Color.Transparent;
-            this.volume2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.volume2.Location = new System.Drawing.Point(240, 5);
-            this.volume2.Name = "volume2";
-            this.volume2.Size = new System.Drawing.Size(29, 31);
-            this.volume2.TabIndex = 3;
-            this.volume2.Text = "2";
+            this.volumeB.BackColor = System.Drawing.Color.Lime;
+            this.volumeB.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.volumeB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.volumeB.Location = new System.Drawing.Point(246, 3);
+            this.volumeB.Name = "volumeB";
+            this.volumeB.Size = new System.Drawing.Size(18, 31);
+            this.volumeB.TabIndex = 44;
+            this.volumeB.Text = "3";
             // 
             // label30
             // 
@@ -366,31 +304,31 @@
             this.label33.TabIndex = 1;
             this.label33.Text = "|";
             // 
-            // book3
+            // bookC
             // 
-            this.book3.BackColor = System.Drawing.Color.Gold;
-            this.book3.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
-            this.book3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.book3.Controls.Add(this.volume3);
-            this.book3.Controls.Add(this.label25);
-            this.book3.Controls.Add(this.label26);
-            this.book3.Controls.Add(this.label27);
-            this.book3.Controls.Add(this.label28);
-            this.book3.Location = new System.Drawing.Point(488, 323);
-            this.book3.Name = "book3";
-            this.book3.Size = new System.Drawing.Size(278, 42);
-            this.book3.TabIndex = 16;
+            this.bookC.BackColor = System.Drawing.Color.Gold;
+            this.bookC.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
+            this.bookC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bookC.Controls.Add(this.volumeC);
+            this.bookC.Controls.Add(this.label25);
+            this.bookC.Controls.Add(this.label26);
+            this.bookC.Controls.Add(this.label27);
+            this.bookC.Controls.Add(this.label28);
+            this.bookC.Location = new System.Drawing.Point(488, 323);
+            this.bookC.Name = "bookC";
+            this.bookC.Size = new System.Drawing.Size(278, 42);
+            this.bookC.TabIndex = 16;
             // 
-            // volume3
+            // volumeC
             // 
-            this.volume3.AutoSize = true;
-            this.volume3.BackColor = System.Drawing.Color.Transparent;
-            this.volume3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.volume3.Location = new System.Drawing.Point(240, 5);
-            this.volume3.Name = "volume3";
-            this.volume3.Size = new System.Drawing.Size(29, 31);
-            this.volume3.TabIndex = 3;
-            this.volume3.Text = "3";
+            this.volumeC.BackColor = System.Drawing.Color.Gold;
+            this.volumeC.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.volumeC.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.volumeC.Location = new System.Drawing.Point(246, 4);
+            this.volumeC.Name = "volumeC";
+            this.volumeC.Size = new System.Drawing.Size(18, 31);
+            this.volumeC.TabIndex = 43;
+            this.volumeC.Text = "4";
             // 
             // label25
             // 
@@ -439,31 +377,31 @@
             this.label28.TabIndex = 1;
             this.label28.Text = "|";
             // 
-            // book4
+            // bookD
             // 
-            this.book4.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.book4.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
-            this.book4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.book4.Controls.Add(this.volume4);
-            this.book4.Controls.Add(this.label20);
-            this.book4.Controls.Add(this.label21);
-            this.book4.Controls.Add(this.label22);
-            this.book4.Controls.Add(this.label23);
-            this.book4.Location = new System.Drawing.Point(488, 210);
-            this.book4.Name = "book4";
-            this.book4.Size = new System.Drawing.Size(278, 42);
-            this.book4.TabIndex = 15;
+            this.bookD.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.bookD.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
+            this.bookD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bookD.Controls.Add(this.volumeD);
+            this.bookD.Controls.Add(this.label20);
+            this.bookD.Controls.Add(this.label21);
+            this.bookD.Controls.Add(this.label22);
+            this.bookD.Controls.Add(this.label23);
+            this.bookD.Location = new System.Drawing.Point(488, 210);
+            this.bookD.Name = "bookD";
+            this.bookD.Size = new System.Drawing.Size(278, 42);
+            this.bookD.TabIndex = 15;
             // 
-            // volume4
+            // volumeD
             // 
-            this.volume4.AutoSize = true;
-            this.volume4.BackColor = System.Drawing.Color.Transparent;
-            this.volume4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.volume4.Location = new System.Drawing.Point(240, 5);
-            this.volume4.Name = "volume4";
-            this.volume4.Size = new System.Drawing.Size(29, 31);
-            this.volume4.TabIndex = 3;
-            this.volume4.Text = "4";
+            this.volumeD.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.volumeD.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.volumeD.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.volumeD.Location = new System.Drawing.Point(246, 4);
+            this.volumeD.Name = "volumeD";
+            this.volumeD.Size = new System.Drawing.Size(18, 31);
+            this.volumeD.TabIndex = 44;
+            this.volumeD.Text = "2";
             // 
             // label20
             // 
@@ -512,31 +450,31 @@
             this.label23.TabIndex = 1;
             this.label23.Text = "|";
             // 
-            // book5
+            // bookE
             // 
-            this.book5.BackColor = System.Drawing.Color.Red;
-            this.book5.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
-            this.book5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.book5.Controls.Add(this.volume5);
-            this.book5.Controls.Add(this.label17);
-            this.book5.Controls.Add(this.label14);
-            this.book5.Controls.Add(this.label15);
-            this.book5.Controls.Add(this.label16);
-            this.book5.Location = new System.Drawing.Point(488, 96);
-            this.book5.Name = "book5";
-            this.book5.Size = new System.Drawing.Size(278, 42);
-            this.book5.TabIndex = 14;
+            this.bookE.BackColor = System.Drawing.Color.Red;
+            this.bookE.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.BOOK_CVER_removebg_preview;
+            this.bookE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bookE.Controls.Add(this.volumeE);
+            this.bookE.Controls.Add(this.label17);
+            this.bookE.Controls.Add(this.label14);
+            this.bookE.Controls.Add(this.label15);
+            this.bookE.Controls.Add(this.label16);
+            this.bookE.Location = new System.Drawing.Point(488, 96);
+            this.bookE.Name = "bookE";
+            this.bookE.Size = new System.Drawing.Size(278, 42);
+            this.bookE.TabIndex = 14;
             // 
-            // volume5
+            // volumeE
             // 
-            this.volume5.AutoSize = true;
-            this.volume5.BackColor = System.Drawing.Color.Transparent;
-            this.volume5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.volume5.Location = new System.Drawing.Point(240, 5);
-            this.volume5.Name = "volume5";
-            this.volume5.Size = new System.Drawing.Size(29, 31);
-            this.volume5.TabIndex = 3;
-            this.volume5.Text = "5";
+            this.volumeE.BackColor = System.Drawing.Color.Red;
+            this.volumeE.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.volumeE.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.volumeE.Location = new System.Drawing.Point(246, 4);
+            this.volumeE.Name = "volumeE";
+            this.volumeE.Size = new System.Drawing.Size(18, 31);
+            this.volumeE.TabIndex = 4;
+            this.volumeE.Text = "1";
             // 
             // label17
             // 
@@ -547,7 +485,7 @@
             this.label17.Location = new System.Drawing.Point(250, -18);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(49, 74);
-            this.label17.TabIndex = 3;
+            this.label17.TabIndex = 0;
             this.label17.Text = "|";
             // 
             // label14
@@ -640,36 +578,394 @@
             this.pictureBox5.TabIndex = 24;
             this.pictureBox5.TabStop = false;
             // 
-            // whatAlmostCorrect
+            // secondpass
             // 
-            this.whatAlmostCorrect.BackColor = System.Drawing.Color.Transparent;
-            this.whatAlmostCorrect.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.right_but_not_right;
-            this.whatAlmostCorrect.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.whatAlmostCorrect.Location = new System.Drawing.Point(15, 423);
-            this.whatAlmostCorrect.Name = "whatAlmostCorrect";
-            this.whatAlmostCorrect.Size = new System.Drawing.Size(284, 108);
-            this.whatAlmostCorrect.TabIndex = 40;
-            this.whatAlmostCorrect.TabStop = false;
+            this.secondpass.Location = new System.Drawing.Point(170, 278);
+            this.secondpass.Name = "secondpass";
+            this.secondpass.Size = new System.Drawing.Size(147, 23);
+            this.secondpass.TabIndex = 44;
+            this.secondpass.Text = "Start 2nd Pass";
+            this.secondpass.UseVisualStyleBackColor = true;
+            this.secondpass.Visible = false;
+            this.secondpass.Click += new System.EventHandler(this.secondpass_Click);
             // 
-            // label4
+            // next1
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label4.Location = new System.Drawing.Point(12, 407);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 13);
-            this.label4.TabIndex = 41;
-            this.label4.Text = "//di ko alam tawag";
+            this.next1.Location = new System.Drawing.Point(200, 278);
+            this.next1.Name = "next1";
+            this.next1.Size = new System.Drawing.Size(95, 23);
+            this.next1.TabIndex = 45;
+            this.next1.Text = "Sort";
+            this.next1.UseVisualStyleBackColor = true;
+            this.next1.Visible = false;
+            this.next1.Click += new System.EventHandler(this.next1_Click);
             // 
-            // label5
+            // correctD
             // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label5.Location = new System.Drawing.Point(457, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(120, 13);
-            this.label5.TabIndex = 42;
-            this.label5.Text = "//bookshelves w books";
+            this.correctD.BackColor = System.Drawing.Color.Transparent;
+            this.correctD.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.TANGGAL_BG_CHECK1;
+            this.correctD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.correctD.Location = new System.Drawing.Point(486, 144);
+            this.correctD.Name = "correctD";
+            this.correctD.Size = new System.Drawing.Size(284, 108);
+            this.correctD.TabIndex = 46;
+            this.correctD.TabStop = false;
+            this.correctD.Visible = false;
+            // 
+            // correctC
+            // 
+            this.correctC.BackColor = System.Drawing.Color.Transparent;
+            this.correctC.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.TANGGAL_BG_CHECK1;
+            this.correctC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.correctC.Location = new System.Drawing.Point(486, 258);
+            this.correctC.Name = "correctC";
+            this.correctC.Size = new System.Drawing.Size(284, 108);
+            this.correctC.TabIndex = 47;
+            this.correctC.TabStop = false;
+            this.correctC.Visible = false;
+            // 
+            // correctB
+            // 
+            this.correctB.BackColor = System.Drawing.Color.Transparent;
+            this.correctB.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.TANGGAL_BG_CHECK1;
+            this.correctB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.correctB.Location = new System.Drawing.Point(486, 371);
+            this.correctB.Name = "correctB";
+            this.correctB.Size = new System.Drawing.Size(284, 108);
+            this.correctB.TabIndex = 48;
+            this.correctB.TabStop = false;
+            this.correctB.Visible = false;
+            // 
+            // correctA
+            // 
+            this.correctA.BackColor = System.Drawing.Color.Transparent;
+            this.correctA.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.TANGGAL_BG_CHECK1;
+            this.correctA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.correctA.Location = new System.Drawing.Point(486, 484);
+            this.correctA.Name = "correctA";
+            this.correctA.Size = new System.Drawing.Size(284, 108);
+            this.correctA.TabIndex = 49;
+            this.correctA.TabStop = false;
+            this.correctA.Visible = false;
+            // 
+            // noneedA
+            // 
+            this.noneedA.BackColor = System.Drawing.Color.Transparent;
+            this.noneedA.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.right_but_not_right;
+            this.noneedA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.noneedA.Location = new System.Drawing.Point(486, 485);
+            this.noneedA.Name = "noneedA";
+            this.noneedA.Size = new System.Drawing.Size(284, 108);
+            this.noneedA.TabIndex = 50;
+            this.noneedA.TabStop = false;
+            this.noneedA.Visible = false;
+            // 
+            // noneedB
+            // 
+            this.noneedB.BackColor = System.Drawing.Color.Transparent;
+            this.noneedB.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.right_but_not_right;
+            this.noneedB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.noneedB.Location = new System.Drawing.Point(486, 372);
+            this.noneedB.Name = "noneedB";
+            this.noneedB.Size = new System.Drawing.Size(284, 108);
+            this.noneedB.TabIndex = 51;
+            this.noneedB.TabStop = false;
+            this.noneedB.Visible = false;
+            // 
+            // noneedC
+            // 
+            this.noneedC.BackColor = System.Drawing.Color.Transparent;
+            this.noneedC.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.right_but_not_right;
+            this.noneedC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.noneedC.Location = new System.Drawing.Point(486, 258);
+            this.noneedC.Name = "noneedC";
+            this.noneedC.Size = new System.Drawing.Size(284, 108);
+            this.noneedC.TabIndex = 52;
+            this.noneedC.TabStop = false;
+            this.noneedC.Visible = false;
+            // 
+            // noneedD
+            // 
+            this.noneedD.BackColor = System.Drawing.Color.Transparent;
+            this.noneedD.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.right_but_not_right;
+            this.noneedD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.noneedD.Location = new System.Drawing.Point(486, 144);
+            this.noneedD.Name = "noneedD";
+            this.noneedD.Size = new System.Drawing.Size(284, 108);
+            this.noneedD.TabIndex = 53;
+            this.noneedD.TabStop = false;
+            this.noneedD.Visible = false;
+            // 
+            // noneedE
+            // 
+            this.noneedE.BackColor = System.Drawing.Color.Transparent;
+            this.noneedE.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.right_but_not_right;
+            this.noneedE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.noneedE.Location = new System.Drawing.Point(486, 30);
+            this.noneedE.Name = "noneedE";
+            this.noneedE.Size = new System.Drawing.Size(284, 108);
+            this.noneedE.TabIndex = 54;
+            this.noneedE.TabStop = false;
+            this.noneedE.Visible = false;
+            // 
+            // spotlightA
+            // 
+            this.spotlightA.BackColor = System.Drawing.Color.Transparent;
+            this.spotlightA.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.highigliheter;
+            this.spotlightA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.spotlightA.Location = new System.Drawing.Point(486, 484);
+            this.spotlightA.Name = "spotlightA";
+            this.spotlightA.Size = new System.Drawing.Size(284, 108);
+            this.spotlightA.TabIndex = 55;
+            this.spotlightA.TabStop = false;
+            this.spotlightA.Visible = false;
+            // 
+            // spotlightB
+            // 
+            this.spotlightB.BackColor = System.Drawing.Color.Transparent;
+            this.spotlightB.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.highigliheter;
+            this.spotlightB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.spotlightB.Location = new System.Drawing.Point(486, 370);
+            this.spotlightB.Name = "spotlightB";
+            this.spotlightB.Size = new System.Drawing.Size(284, 108);
+            this.spotlightB.TabIndex = 56;
+            this.spotlightB.TabStop = false;
+            this.spotlightB.Visible = false;
+            // 
+            // spotlightC
+            // 
+            this.spotlightC.BackColor = System.Drawing.Color.Transparent;
+            this.spotlightC.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.highigliheter;
+            this.spotlightC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.spotlightC.Location = new System.Drawing.Point(486, 258);
+            this.spotlightC.Name = "spotlightC";
+            this.spotlightC.Size = new System.Drawing.Size(284, 108);
+            this.spotlightC.TabIndex = 57;
+            this.spotlightC.TabStop = false;
+            this.spotlightC.Visible = false;
+            this.spotlightC.Click += new System.EventHandler(this.spotlightC_Click);
+            // 
+            // spotlightD
+            // 
+            this.spotlightD.BackColor = System.Drawing.Color.Transparent;
+            this.spotlightD.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.highigliheter;
+            this.spotlightD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.spotlightD.Location = new System.Drawing.Point(486, 144);
+            this.spotlightD.Name = "spotlightD";
+            this.spotlightD.Size = new System.Drawing.Size(284, 108);
+            this.spotlightD.TabIndex = 58;
+            this.spotlightD.TabStop = false;
+            this.spotlightD.Visible = false;
+            // 
+            // spotlightE
+            // 
+            this.spotlightE.BackColor = System.Drawing.Color.Transparent;
+            this.spotlightE.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.highigliheter;
+            this.spotlightE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.spotlightE.Location = new System.Drawing.Point(486, 30);
+            this.spotlightE.Name = "spotlightE";
+            this.spotlightE.Size = new System.Drawing.Size(284, 108);
+            this.spotlightE.TabIndex = 59;
+            this.spotlightE.TabStop = false;
+            this.spotlightE.Visible = false;
+            // 
+            // next2
+            // 
+            this.next2.Location = new System.Drawing.Point(200, 278);
+            this.next2.Name = "next2";
+            this.next2.Size = new System.Drawing.Size(95, 23);
+            this.next2.TabIndex = 60;
+            this.next2.Text = "Next";
+            this.next2.UseVisualStyleBackColor = true;
+            this.next2.Visible = false;
+            this.next2.Click += new System.EventHandler(this.next2_Click);
+            // 
+            // next3
+            // 
+            this.next3.Location = new System.Drawing.Point(200, 278);
+            this.next3.Name = "next3";
+            this.next3.Size = new System.Drawing.Size(95, 23);
+            this.next3.TabIndex = 61;
+            this.next3.Text = "Sort";
+            this.next3.UseVisualStyleBackColor = true;
+            this.next3.Visible = false;
+            this.next3.Click += new System.EventHandler(this.next3_Click);
+            // 
+            // next4
+            // 
+            this.next4.Location = new System.Drawing.Point(200, 278);
+            this.next4.Name = "next4";
+            this.next4.Size = new System.Drawing.Size(95, 23);
+            this.next4.TabIndex = 62;
+            this.next4.Text = "Next";
+            this.next4.UseVisualStyleBackColor = true;
+            this.next4.Visible = false;
+            this.next4.Click += new System.EventHandler(this.next4_Click);
+            // 
+            // next5
+            // 
+            this.next5.Location = new System.Drawing.Point(200, 278);
+            this.next5.Name = "next5";
+            this.next5.Size = new System.Drawing.Size(95, 23);
+            this.next5.TabIndex = 63;
+            this.next5.Text = "Sort";
+            this.next5.UseVisualStyleBackColor = true;
+            this.next5.Visible = false;
+            this.next5.Click += new System.EventHandler(this.next5_Click);
+            // 
+            // next6
+            // 
+            this.next6.Location = new System.Drawing.Point(200, 278);
+            this.next6.Name = "next6";
+            this.next6.Size = new System.Drawing.Size(95, 23);
+            this.next6.TabIndex = 64;
+            this.next6.Text = "Next";
+            this.next6.UseVisualStyleBackColor = true;
+            this.next6.Visible = false;
+            this.next6.Click += new System.EventHandler(this.next6_Click);
+            // 
+            // next7
+            // 
+            this.next7.Location = new System.Drawing.Point(200, 278);
+            this.next7.Name = "next7";
+            this.next7.Size = new System.Drawing.Size(95, 23);
+            this.next7.TabIndex = 65;
+            this.next7.Text = "Sort";
+            this.next7.UseVisualStyleBackColor = true;
+            this.next7.Visible = false;
+            this.next7.Click += new System.EventHandler(this.next7_Click);
+            // 
+            // next8
+            // 
+            this.next8.Location = new System.Drawing.Point(200, 278);
+            this.next8.Name = "next8";
+            this.next8.Size = new System.Drawing.Size(95, 23);
+            this.next8.TabIndex = 66;
+            this.next8.Text = "Sort";
+            this.next8.UseVisualStyleBackColor = true;
+            this.next8.Visible = false;
+            this.next8.Click += new System.EventHandler(this.next8_Click);
+            // 
+            // next9
+            // 
+            this.next9.Location = new System.Drawing.Point(200, 278);
+            this.next9.Name = "next9";
+            this.next9.Size = new System.Drawing.Size(95, 23);
+            this.next9.TabIndex = 67;
+            this.next9.Text = "Next";
+            this.next9.UseVisualStyleBackColor = true;
+            this.next9.Visible = false;
+            this.next9.Click += new System.EventHandler(this.next9_Click);
+            // 
+            // next10
+            // 
+            this.next10.Location = new System.Drawing.Point(200, 278);
+            this.next10.Name = "next10";
+            this.next10.Size = new System.Drawing.Size(95, 23);
+            this.next10.TabIndex = 68;
+            this.next10.Text = "Sort";
+            this.next10.UseVisualStyleBackColor = true;
+            this.next10.Visible = false;
+            this.next10.Click += new System.EventHandler(this.next10_Click);
+            // 
+            // next11
+            // 
+            this.next11.Location = new System.Drawing.Point(200, 278);
+            this.next11.Name = "next11";
+            this.next11.Size = new System.Drawing.Size(95, 23);
+            this.next11.TabIndex = 69;
+            this.next11.Text = "Next";
+            this.next11.UseVisualStyleBackColor = true;
+            this.next11.Visible = false;
+            this.next11.Click += new System.EventHandler(this.next11_Click);
+            // 
+            // next12
+            // 
+            this.next12.Location = new System.Drawing.Point(200, 278);
+            this.next12.Name = "next12";
+            this.next12.Size = new System.Drawing.Size(95, 23);
+            this.next12.TabIndex = 70;
+            this.next12.Text = "Sort";
+            this.next12.UseVisualStyleBackColor = true;
+            this.next12.Visible = false;
+            this.next12.Click += new System.EventHandler(this.next12_Click);
+            // 
+            // thirdpass
+            // 
+            this.thirdpass.Location = new System.Drawing.Point(170, 278);
+            this.thirdpass.Name = "thirdpass";
+            this.thirdpass.Size = new System.Drawing.Size(147, 23);
+            this.thirdpass.TabIndex = 71;
+            this.thirdpass.Text = "Start 3rd Pass";
+            this.thirdpass.UseVisualStyleBackColor = true;
+            this.thirdpass.Visible = false;
+            this.thirdpass.Click += new System.EventHandler(this.thirdpass_Click);
+            // 
+            // next13
+            // 
+            this.next13.Location = new System.Drawing.Point(200, 278);
+            this.next13.Name = "next13";
+            this.next13.Size = new System.Drawing.Size(95, 23);
+            this.next13.TabIndex = 72;
+            this.next13.Text = "Sort";
+            this.next13.UseVisualStyleBackColor = true;
+            this.next13.Visible = false;
+            this.next13.Click += new System.EventHandler(this.next13_Click);
+            // 
+            // next14
+            // 
+            this.next14.Location = new System.Drawing.Point(200, 278);
+            this.next14.Name = "next14";
+            this.next14.Size = new System.Drawing.Size(95, 23);
+            this.next14.TabIndex = 73;
+            this.next14.Text = "Next";
+            this.next14.UseVisualStyleBackColor = true;
+            this.next14.Visible = false;
+            this.next14.Click += new System.EventHandler(this.next14_Click);
+            // 
+            // next15
+            // 
+            this.next15.Location = new System.Drawing.Point(200, 278);
+            this.next15.Name = "next15";
+            this.next15.Size = new System.Drawing.Size(95, 23);
+            this.next15.TabIndex = 74;
+            this.next15.Text = "Sort";
+            this.next15.UseVisualStyleBackColor = true;
+            this.next15.Visible = false;
+            this.next15.Click += new System.EventHandler(this.next15_Click);
+            // 
+            // fourthpass
+            // 
+            this.fourthpass.Location = new System.Drawing.Point(170, 278);
+            this.fourthpass.Name = "fourthpass";
+            this.fourthpass.Size = new System.Drawing.Size(147, 23);
+            this.fourthpass.TabIndex = 75;
+            this.fourthpass.Text = "Start 4th Pass";
+            this.fourthpass.UseVisualStyleBackColor = true;
+            this.fourthpass.Visible = false;
+            this.fourthpass.Click += new System.EventHandler(this.fourthpass_Click);
+            // 
+            // next16
+            // 
+            this.next16.Location = new System.Drawing.Point(200, 278);
+            this.next16.Name = "next16";
+            this.next16.Size = new System.Drawing.Size(95, 23);
+            this.next16.TabIndex = 76;
+            this.next16.Text = "Sort";
+            this.next16.UseVisualStyleBackColor = true;
+            this.next16.Visible = false;
+            this.next16.Click += new System.EventHandler(this.next16_Click);
+            // 
+            // refreshbtn
+            // 
+            this.refreshbtn.Location = new System.Drawing.Point(215, 337);
+            this.refreshbtn.Name = "refreshbtn";
+            this.refreshbtn.Size = new System.Drawing.Size(61, 23);
+            this.refreshbtn.TabIndex = 77;
+            this.refreshbtn.Text = "Restart";
+            this.refreshbtn.UseVisualStyleBackColor = true;
+            this.refreshbtn.Visible = false;
+            this.refreshbtn.Click += new System.EventHandler(this.refreshbtn_Click);
             // 
             // Form1
             // 
@@ -678,57 +974,91 @@
             this.BackgroundImage = global::Bubble_Sort__Design_.Properties.Resources.VOL__1__14_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(798, 633);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.whatAlmostCorrect);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.whatCorrect);
-            this.Controls.Add(this.whatHighlight);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.book1);
-            this.Controls.Add(this.book2);
-            this.Controls.Add(this.book3);
-            this.Controls.Add(this.book4);
-            this.Controls.Add(this.book5);
+            this.Controls.Add(this.refreshbtn);
+            this.Controls.Add(this.bookE);
+            this.Controls.Add(this.spotlightE);
+            this.Controls.Add(this.bookD);
+            this.Controls.Add(this.spotlightD);
+            this.Controls.Add(this.bookC);
+            this.Controls.Add(this.spotlightC);
+            this.Controls.Add(this.bookB);
+            this.Controls.Add(this.spotlightB);
+            this.Controls.Add(this.bookA);
+            this.Controls.Add(this.spotlightA);
+            this.Controls.Add(this.noneedE);
+            this.Controls.Add(this.noneedD);
+            this.Controls.Add(this.noneedC);
+            this.Controls.Add(this.noneedB);
+            this.Controls.Add(this.noneedA);
+            this.Controls.Add(this.correctA);
+            this.Controls.Add(this.correctB);
+            this.Controls.Add(this.correctC);
+            this.Controls.Add(this.correctD);
+            this.Controls.Add(this.correctE);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.MainStart);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.next1);
+            this.Controls.Add(this.next2);
+            this.Controls.Add(this.next3);
+            this.Controls.Add(this.next4);
+            this.Controls.Add(this.next5);
+            this.Controls.Add(this.next6);
+            this.Controls.Add(this.next7);
+            this.Controls.Add(this.secondpass);
+            this.Controls.Add(this.next8);
+            this.Controls.Add(this.next9);
+            this.Controls.Add(this.next10);
+            this.Controls.Add(this.next11);
+            this.Controls.Add(this.next12);
+            this.Controls.Add(this.thirdpass);
+            this.Controls.Add(this.next13);
+            this.Controls.Add(this.next14);
+            this.Controls.Add(this.next15);
+            this.Controls.Add(this.fourthpass);
+            this.Controls.Add(this.next16);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bubble Sort Program";
-            ((System.ComponentModel.ISupportInitialize)(this.whatCorrect)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whatHighlight)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.book1.ResumeLayout(false);
-            this.book1.PerformLayout();
-            this.book2.ResumeLayout(false);
-            this.book2.PerformLayout();
-            this.book3.ResumeLayout(false);
-            this.book3.PerformLayout();
-            this.book4.ResumeLayout(false);
-            this.book4.PerformLayout();
-            this.book5.ResumeLayout(false);
-            this.book5.PerformLayout();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.correctE)).EndInit();
+            this.bookA.ResumeLayout(false);
+            this.bookA.PerformLayout();
+            this.bookB.ResumeLayout(false);
+            this.bookB.PerformLayout();
+            this.bookC.ResumeLayout(false);
+            this.bookC.PerformLayout();
+            this.bookD.ResumeLayout(false);
+            this.bookD.PerformLayout();
+            this.bookE.ResumeLayout(false);
+            this.bookE.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whatAlmostCorrect)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correctD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correctC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correctB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correctA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.noneedE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spotlightE)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -736,39 +1066,28 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button MainStart;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Panel book5;
-        private System.Windows.Forms.Label volume5;
+        private System.Windows.Forms.Panel bookE;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Panel book4;
-        private System.Windows.Forms.Label volume4;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Panel bookD;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Panel book3;
-        private System.Windows.Forms.Label volume3;
+        private System.Windows.Forms.Panel bookC;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Panel book2;
-        private System.Windows.Forms.Label volume2;
+        private System.Windows.Forms.Panel bookB;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Panel book1;
-        private System.Windows.Forms.Label volume1;
+        private System.Windows.Forms.Panel bookA;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
@@ -778,15 +1097,47 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox whatHighlight;
-        private System.Windows.Forms.PictureBox whatCorrect;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox whatAlmostCorrect;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox correctE;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox volumeA;
+        private System.Windows.Forms.TextBox volumeB;
+        private System.Windows.Forms.TextBox volumeC;
+        private System.Windows.Forms.TextBox volumeD;
+        private System.Windows.Forms.TextBox volumeE;
+        private System.Windows.Forms.Button secondpass;
+        private System.Windows.Forms.Button next1;
+        private System.Windows.Forms.PictureBox correctD;
+        private System.Windows.Forms.PictureBox correctC;
+        private System.Windows.Forms.PictureBox correctB;
+        private System.Windows.Forms.PictureBox correctA;
+        private System.Windows.Forms.PictureBox noneedA;
+        private System.Windows.Forms.PictureBox noneedB;
+        private System.Windows.Forms.PictureBox noneedC;
+        private System.Windows.Forms.PictureBox noneedD;
+        private System.Windows.Forms.PictureBox noneedE;
+        private System.Windows.Forms.PictureBox spotlightA;
+        private System.Windows.Forms.PictureBox spotlightB;
+        private System.Windows.Forms.PictureBox spotlightC;
+        private System.Windows.Forms.PictureBox spotlightD;
+        private System.Windows.Forms.PictureBox spotlightE;
+        private System.Windows.Forms.Button next2;
+        private System.Windows.Forms.Button next3;
+        private System.Windows.Forms.Button next4;
+        private System.Windows.Forms.Button next5;
+        private System.Windows.Forms.Button next6;
+        private System.Windows.Forms.Button next7;
+        private System.Windows.Forms.Button next8;
+        private System.Windows.Forms.Button next9;
+        private System.Windows.Forms.Button next10;
+        private System.Windows.Forms.Button next11;
+        private System.Windows.Forms.Button next12;
+        private System.Windows.Forms.Button thirdpass;
+        private System.Windows.Forms.Button next13;
+        private System.Windows.Forms.Button next14;
+        private System.Windows.Forms.Button next15;
+        private System.Windows.Forms.Button fourthpass;
+        private System.Windows.Forms.Button next16;
+        private System.Windows.Forms.Button refreshbtn;
     }
 }
 
