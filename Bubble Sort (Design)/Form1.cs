@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bubble_Sort__Design_
@@ -160,7 +154,7 @@ namespace Bubble_Sort__Design_
                 bookE.BackColor = Color.DodgerBlue;
                 volumeE.BackColor = Color.DodgerBlue;
 
-                
+
             }
 
             if (f >= d && d >= c && c >= b && b >= a)
@@ -183,7 +177,12 @@ namespace Bubble_Sort__Design_
             MainStart.Visible = false;
             next1.Visible = true;
             refreshbtn.Visible = true;
-           
+            volumeA.ReadOnly = true;
+            volumeB.ReadOnly = true;
+            volumeC.ReadOnly = true;
+            volumeD.ReadOnly = true;
+            volumeE.ReadOnly = true;
+
 
 
         }
@@ -226,7 +225,7 @@ namespace Bubble_Sort__Design_
                 correctE.Visible = true;
                 spotlightA.Visible = false;
                 spotlightB.Visible = false;
-                
+
 
                 MessageBox.Show("SORTED!");
                 next2.Visible = false;
@@ -310,7 +309,7 @@ namespace Bubble_Sort__Design_
                 correctE.Visible = true;
                 spotlightB.Visible = false;
                 spotlightC.Visible = false;
-               
+
 
                 MessageBox.Show("SORTED!");
                 next4.Visible = false;
@@ -400,7 +399,7 @@ namespace Bubble_Sort__Design_
                 correctE.Visible = true;
                 spotlightC.Visible = false;
                 spotlightD.Visible = false;
-                
+
 
                 MessageBox.Show("SORTED!");
                 next6.Visible = false;
@@ -563,8 +562,6 @@ namespace Bubble_Sort__Design_
             int b = int.Parse(volumeB.Text);
             int c = int.Parse(volumeC.Text);
             int d = int.Parse(volumeD.Text);
-            int f = int.Parse(volumeE.Text);
-
 
             if (d >= a && c >= a && d >= b && c >= b && d >= c && a > b)
             {
@@ -588,7 +585,7 @@ namespace Bubble_Sort__Design_
                 correctE.Visible = true;
                 spotlightA.Visible = false;
                 spotlightB.Visible = false;
-                
+
 
                 MessageBox.Show("SORTED!");
                 next9.Visible = false;
@@ -648,8 +645,6 @@ namespace Bubble_Sort__Design_
             int b = int.Parse(volumeB.Text);
             int c = int.Parse(volumeC.Text);
             int d = int.Parse(volumeD.Text);
-            int f = int.Parse(volumeE.Text);
-
 
             if (d >= a && c >= a && b >= a && d >= b && d >= c && b >= c)
             {
@@ -746,10 +741,9 @@ namespace Bubble_Sort__Design_
             int b = int.Parse(volumeB.Text);
             int c = int.Parse(volumeC.Text);
             int d = int.Parse(volumeD.Text);
-            int f = int.Parse(volumeE.Text);
 
 
-            if (f >= a && d >= a && c >= a && b >= a && f >= b && d >= b && c >= b && f >= c && f >= d && c > d)
+            if (d >= a && c >= a && b >= a && d >= b && c >= b && c > d)
             {
 
                 h = volumeD.Text;
@@ -807,7 +801,7 @@ namespace Bubble_Sort__Design_
 
         private void thirdpass_Click(object sender, EventArgs e)
         {
-           thirdpass.Visible = false;
+            thirdpass.Visible = false;
             next13.Visible = true;
 
             int c = int.Parse(volumeC.Text);
@@ -951,8 +945,6 @@ namespace Bubble_Sort__Design_
             int a = int.Parse(volumeA.Text);
             int b = int.Parse(volumeB.Text);
             int c = int.Parse(volumeC.Text);
-            int d = int.Parse(volumeD.Text);
-            int f = int.Parse(volumeE.Text);
 
 
             if (c >= a && b >= a && b >= c)
@@ -1016,10 +1008,9 @@ namespace Bubble_Sort__Design_
             fourthpass.Visible = false;
             next16.Visible = true;
 
-            int a = int.Parse(volumeA.Text);
             int b = int.Parse(volumeB.Text);
             int c = int.Parse(volumeC.Text);
-           
+
 
             if (b == c)
             {
@@ -1048,13 +1039,10 @@ namespace Bubble_Sort__Design_
         private void next16_Click(object sender, EventArgs e)
         {
             next16.Visible = false;
-            
+
             string h;
             Color m;
             Color n;
-
-            int a = int.Parse(volumeA.Text);
-            int b = int.Parse(volumeB.Text);
 
             h = volumeB.Text;
             volumeB.Text = volumeA.Text;
