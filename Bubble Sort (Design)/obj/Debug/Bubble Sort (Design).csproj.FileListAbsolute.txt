@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\bin\Debug\Bubble Sort (Design).exe.config
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\bin\Debug\Bubble Sort (Design).exe
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\bin\Debug\Bubble Sort (Design).pdb
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble_Sort__Design_.Form1.resources
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble_Sort__Design_.Properties.Resources.resources
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).exe
+C:\Users\HP\source\repos\Bubble Sort (Design)\Bubble Sort (Design)\obj\Debug\Bubble Sort (Design).pdb
