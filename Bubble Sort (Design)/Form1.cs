@@ -709,7 +709,7 @@ namespace Bubble_Sort__Design_
             next12.Visible = true;
 
             int d = int.Parse(volumeD.Text);
-            int f = int.Parse(volumeC.Text);
+            int f = int.Parse(volumeE.Text);
 
             if (f == d)
             {
@@ -844,9 +844,6 @@ namespace Bubble_Sort__Design_
             int a = int.Parse(volumeA.Text);
             int b = int.Parse(volumeB.Text);
             int c = int.Parse(volumeC.Text);
-            int d = int.Parse(volumeD.Text);
-            int f = int.Parse(volumeE.Text);
-
 
             if (c >= a && c >= b && a > b)
             {
@@ -909,8 +906,8 @@ namespace Bubble_Sort__Design_
             next14.Visible = false;
             next15.Visible = true;
 
-            int b = int.Parse(volumeD.Text);
-            int c = int.Parse(volumeE.Text);
+            int b = int.Parse(volumeB.Text);
+            int c = int.Parse(volumeC.Text);
 
             if (b == c)
             {
@@ -1061,7 +1058,6 @@ namespace Bubble_Sort__Design_
             correctB.Visible = true;
             spotlightA.Visible = false;
             spotlightB.Visible = false;
-
 
             MessageBox.Show("SORTED!");
         }
