@@ -172,10 +172,10 @@ namespace Bubble_Sort__Design_
             {
                 spotlightA.Visible = true;
                 spotlightB.Visible = true;
+                next1.Visible = true;
             }
 
             MainStart.Visible = false;
-            next1.Visible = true;
             refreshbtn.Visible = true;
             volumeA.ReadOnly = true;
             volumeB.ReadOnly = true;
